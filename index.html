@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top bg-light border-bottom border-body" data-bs-theme="light">
+  <div class="container-fluid">
+    
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="img/logorm.png" alt="Logo" width="40" height="40" class="me-2">
+      <span class="fw-bold">CV Cahaya Karya</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">Tentang Kami</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="produk.html">Produk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hubungi.html">Hubungi</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="d-none d-lg-block" style="width: 150px;"></div>
+
+  </div>
+</nav>
+
+<!-- Carousel -->
+<br><br>
+<div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+  
+  <div class="carousel-inner">
+    
+    <div class="carousel-item active">
+      <img src="img/slidesatu.png" class="d-block w-100" style="height: 450px; object-fit:cover" alt="Slide 1">
+      <div class="carousel-caption d-block">
+        <h2 class="fw-bold">Selamat Datang di CV Cahaya Karya</h2>
+        <p>Solusi terbaik untuk kebutuhan infrastruktur dan pembangunan Anda.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/gambar2.jpg" class="d-block w-100" style="height: 450px; object-fit:cover" alt="Slide 2">
+      <div class="carousel-caption d-block">
+        <h2 class="fw-bold">Kualitas Terjamin</h2>
+        <p>Solusi Konstruksi Masa Depan</p>
+        <a href="#proyek" class="btn btn-primary">Lihat Proyek</a>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/gambar3.png" class="d-block w-100" style="height: 450px; object-fit:cover;" alt="Slide 3">
+      <div class="carousel-caption d-block">
+        <h2 class="fw-bold">Tim Profesional</h2>
+        <p>Dikerjakan oleh tenaga ahli yang berpengalaman di bidangnya.</p>
+      </div>
+    </div>
+    
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+</div>
+
+<!-- Jumbotron -->
+
+<div class="container my-5">
+    <div class="p-5 text-center bg-light border-top border-primary border-5 rounded-4 shadow-sm">
+        <div class="py-4">
+            <h1 class="display-6 fw-bold text-dark mb-3">Solusi Terpadu Untuk Anda</h1>
+            <p class="col-lg-8 mx-auto lead text-muted">
+                Membangun infrastruktur fisik yang kokoh sekaligus menghadirkan solusi teknologi digital yang cerdas. Kami siap menjadi mitra pembangunan dan IT Anda.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-4">
+                <a href="https://wa.me/6285647744500" class="btn btn-primary px-4 py-2 fw-bold">Konsultasi Sekarang</a>
+                <a href="#proyek" class="btn btn-outline-secondary px-4 py-2">Lihat Hasil Kerja</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="py-5 bg-light" id="layanan">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h6 class="text-primary fw-bold text-uppercase">Layanan Kami</h6>
+            <h2 class="fw-bold">Solusi Terintegrasi: Konstruksi & Teknologi</h2>
+            <p class="text-muted mx-auto" style="max-width: 700px;">Kami menyediakan layanan menyeluruh mulai dari pembangunan fisik hingga infrastruktur digital untuk mendukung operasional bisnis dan instansi Anda.</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm p-4 text-center">
+                    <div class="mb-3 text-primary" style="font-size: 2.5rem;">
+                        <i class="bi bi-houses"></i>
+                    </div>
+                    <h5 class="fw-bold">Konstruksi & Sipil</h5>
+                    <p class="small text-muted">Jasa borongan bangunan, renovasi, dan pembangunan sekolah, apotek, instansi, dan lainnya.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm p-4 text-center border-top border-primary border-4">
+                    <div class="mb-3 text-primary" style="font-size: 2.5rem;">
+                        <i class="bi bi-router"></i>
+                    </div>
+                    <h5 class="fw-bold">Instalasi & Keamanan</h5>
+                    <p class="small text-muted">Pemasangan jaringan LAN/Wi-Fi, server, dan sistem keamanan CCTV terintegrasi.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm p-4 text-center">
+                    <div class="mb-3 text-primary" style="font-size: 2.5rem;">
+                        <i class="bi bi-laptop"></i>
+                    </div>
+                    <h5 class="fw-bold">Pengadaan Barang IT</h5>
+                    <p class="small text-muted">Penyediaan Laptop, Printer, Proyektor, dan perangkat kantor berkualitas lainnya.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm p-4 text-center border-top border-primary border-4">
+                    <div class="mb-3 text-primary" style="font-size: 2.5rem;">
+                        <i class="bi bi-tools"></i>
+                    </div>
+                    <h5 class="fw-bold">Service & Perawatan</h5>
+                    <p class="small text-muted">Jasa perbaikan (service) komputer, printer, serta perawatan rutin perangkat IT Anda.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Portofolio Proyek -->
+
+<section class="py-5" id="proyek">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h6 class="text-primary fw-bold text-uppercase">Portofolio Proyek</h6>
+            <h2 class="fw-bold">Hasil Kerja Berkualitas</h2>
+            <p class="text-muted">Bukti nyata dedikasi kami dalam pembangunan infrastruktur publik dan instansi.</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0 overflow-hidden">
+                    <img src="img/sekolah.jpg" class="card-img-top" alt="Sekolah" style="height: 220px; object-fit: cover;">
+                    <div class="card-body">
+                        <div class="badge bg-primary mb-2">Pendidikan</div>
+                        <h5 class="fw-bold">Pembangunan Gedung Sekolah</h5>
+                        <p class="small text-muted">Konstruksi ruang kelas dan fasilitas pendukung pendidikan yang aman dan kokoh.</p>
+                        <button class="btn btn-outline-primary btn-sm w-100" data-bs-toggle="modal" data-bs-target="#modalSekolah">Detail Proyek</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0 overflow-hidden">
+                    <img src="img/renov.jpg" class="card-img-top" alt="Apotek" style="height: 220px; object-fit: cover;">
+                    <div class="card-body">
+                        <div class="badge bg-success mb-2">Kesehatan</div>
+                        <h5 class="fw-bold">Pembangunan Gedung Apotek</h5>
+                        <p class="small text-muted">Pembangunan sarana kesehatan dengan tata ruang efisien sesuai standar regulasi.</p>
+                        <button class="btn btn-outline-primary btn-sm w-100" data-bs-toggle="modal" data-bs-target="#modalApotek">Detail Proyek</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0 overflow-hidden">
+                    <img src="img/revovv.jpg" class="card-img-top" alt="Instansi" style="height: 220px; object-fit: cover;">
+                    <div class="card-body">
+                        <div class="badge bg-dark mb-2">Instansi</div>
+                        <h5 class="fw-bold">Renovasi Kantor Instansi</h5>
+                        <p class="small text-muted">Peningkatan fasilitas kantor pemerintahan/swasta untuk kenyamanan operasional.</p>
+                        <button class="btn btn-outline-primary btn-sm w-100" data-bs-toggle="modal" data-bs-target="#modalInstansi">Detail Proyek</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Produk -->
+
+<section class="py-5 bg-white" id="produk">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h6 class="text-primary fw-bold text-uppercase">Pengadaan Barang</h6>
+            <h2 class="fw-bold">Perangkat Teknologi Terpercaya</h2>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4 text-center">
+                <div class="p-4 border rounded shadow-sm h-100 bg-light">
+                    <img src="img/laptopoffice.png" alt="Laptop" class="img-fluid mb-3" style="max-height: 150px;">
+                    <h5 class="fw-bold">Laptop & PC</h5>
+                    <p class="small text-muted">Tersedia berbagai merk untuk kebutuhan kantor, sekolah, maupun desain grafis.</p>
+                    <a href="https://wa.me/6281329146687?text=Halo%20saya%20ingin%20tanya%20laptop" class="btn btn-success btn-sm">Tanya Stok</a>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="p-4 border rounded shadow-sm h-100 bg-light">
+                    <img src="img/printer.png" alt="Printer" class="img-fluid mb-3" style="max-height: 150px;">
+                    <h5 class="fw-bold">Printer & Scanner</h5>
+                    <p class="small text-muted">Pengadaan printer inkjet, laserjet, hingga printer thermal untuk kebutuhan bisnis.</p>
+                    <a href="https://wa.me/6281329146687?text=Halo%20saya%20ingin%20tanya%20printer" class="btn btn-success btn-sm">Tanya Stok</a>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="p-4 border rounded shadow-sm h-100 bg-light">
+                    <img src="img/proyektor.png" alt="Proyektor" class="img-fluid mb-3" style="max-height: 150px;">
+                    <h5 class="fw-bold">Proyektor & Layar</h5>
+                    <p class="small text-muted">Solusi media presentasi untuk ruang rapat instansi atau aula sekolah.</p>
+                    <a href="https://wa.me/6281329146687?text=Halo%20saya%20ingin%20tanya%20proyektor" class="btn btn-success btn-sm">Tanya Stok</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="py-5 bg-dark text-white"> <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md-4">
+                <div class="p-4">
+                    <i class="bi bi-check-circle-fill text-primary mb-3" style="font-size: 2.5rem;"></i>
+                    <h2 class="display-4 fw-bold mb-2">150+</h2>
+                    <p class="text-uppercase fw-bold opacity-75" style="letter-spacing: 1px;">Proyek Selesai</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 border-start border-end border-secondary border-md-none">
+                    <i class="bi bi-people-fill text-primary mb-3" style="font-size: 2.5rem;"></i>
+                    <h2 class="display-4 fw-bold mb-2">80+</h2>
+                    <p class="text-uppercase fw-bold opacity-75" style="letter-spacing: 1px;">Mitra Terpercaya</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4">
+                    <i class="bi bi-award-fill text-primary mb-3" style="font-size: 2.5rem;"></i>
+                    <h2 class="display-4 fw-bold mb-2">5+</h2>
+                    <p class="text-uppercase fw-bold opacity-75" style="letter-spacing: 1px;">Tahun Pengalaman</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="py-5 bg-white">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Apa Kata Mitra Kami?</h2>
+            <p class="text-muted">Kepercayaan dari instansi dan perorangan adalah prioritas utama CV Cahaya Karya.</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-4">
+                    <div class="card-body">
+                        <div class="text-warning mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="card-text text-muted fst-italic">"Pembangunan gedung laboratorium di sekolah kami selesai tepat waktu. Struktur bangunannya sangat kokoh dan pengerjaannya rapi. Benar-benar kontraktor yang amanah."</p>
+                        <div class="d-flex align-items-center mt-4">
+                            <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center text-white fw-bold" style="width: 45px; height: 45px;">H</div>
+                            <div class="ms-3">
+                                <h6 class="fw-bold mb-0">H. Supardi</h6>
+                                <small class="text-muted">Kepala Yayasan Pendidikan</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-4 text-white bg-primary">
+                    <div class="card-body">
+                        <div class="text-white mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="card-text fst-italic">"Instalasi jaringan server dan pemasangan CCTV di kantor instansi kami sangat memuaskan. Perangkat laptop dan printer yang disediakan juga original dan bergaransi resmi."</p>
+                        <div class="d-flex align-items-center mt-4">
+                            <div class="bg-white rounded-circle d-flex align-items-center justify-content-center text-primary fw-bold" style="width: 45px; height: 45px;">A</div>
+                            <div class="ms-3 text-white">
+                                <h6 class="fw-bold mb-0">Agus Setiawan</h6>
+                                <small class="opacity-75">Admin IT Instansi Pemerintah</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-4">
+                    <div class="card-body">
+                        <div class="text-warning mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="card-text text-muted fst-italic">"Sangat puas dengan renovasi apotek kami. Selain itu, jasa service berkala untuk printer dan komputer di tempat kami sangat membantu operasional harian. Responnya sangat cepat!"</p>
+                        <div class="d-flex align-items-center mt-4">
+                            <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center text-white fw-bold" style="width: 45px; height: 45px;">D</div>
+                            <div class="ms-3">
+                                <h6 class="fw-bold mb-0">dr. Diana P.</h6>
+                                <small class="text-muted">Pemilik Apotek</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container my-5">
+    <div class="p-5 bg-light rounded-4 border-start border-primary border-5 shadow-sm">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <h2 class="fw-bold mb-3">Kunjungi Kantor Kami</h2>
+                <p class="text-muted mb-0">Kami siap melayani Anda secara tatap muka untuk diskusi yang lebih detail mengenai proyek konstruksi, pengadaan laptop, atau instalasi jaringan di wilayah Pekalongan, Batang, dan sekitarnya.</p>
+            </div>
+            <div class="col-lg-5 text-lg-end mt-4 mt-lg-0">
+                <div class="d-inline-block text-start p-3 bg-white rounded border">
+                    <p class="mb-1 fw-bold"><i class="bi bi-clock me-2 text-primary"></i> Jam Operasional:</p>
+                    <p class="small mb-0 text-muted">Senin - Sabtu: 08.00 - 16.00 WIB</p>
+                    <p class="small mb-0 text-muted">Minggu/Tgl Merah: Libur</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalSekolah" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content border-0 shadow-lg">
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title fw-bold">Detail Proyek: Pembangunan Gedung Sekolah</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-4">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <img src="img/sekolah.jpeg" class="img-fluid rounded shadow-sm" alt="Detail Sekolah">
+          </div>
+          <div class="col-md-6">
+            <h6 class="fw-bold text-primary"><i class="bi bi-info-circle-fill"></i> Informasi Proyek</h6>
+            <hr>
+            <table class="table table-sm table-borderless">
+              <tr><td><strong>Klien</strong></td><td>: Yayasan Pendidikan / Dinas</td></tr>
+              <tr><td><strong>Lokasi</strong></td><td>: Pekalongan</td></tr>
+              <tr><td><strong>Status</strong></td><td>: Selesai (100%)</td></tr>
+            </table>
+            <h6 class="fw-bold mt-3">Lingkup Pekerjaan:</h6>
+            <p class="text-muted small">Pembangunan gedung meliputi pengerjaan pondasi, struktur beton bertulang, atap baja ringan, hingga instalasi listrik dan pengecatan.</p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        <a href="https://wa.me/6285647744500" class="btn btn-success">Tanya Proyek Serupa</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalApotek" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content border-0 shadow-lg">
+      <div class="modal-header bg-success text-white">
+        <h5 class="modal-title fw-bold">Detail Proyek: Pembangunan Apotek</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-4">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <img src="img/apotek.jpeg" class="img-fluid rounded shadow-sm" alt="Detail Apotek">
+          </div>
+          <div class="col-md-6">
+            <h6 class="fw-bold text-success"><i class="bi bi-info-circle-fill"></i> Informasi Proyek</h6>
+            <hr>
+            <table class="table table-sm table-borderless">
+              <tr><td><strong>Klien</strong></td><td>: Apotek Sehat / Swasta</td></tr>
+              <tr><td><strong>Lokasi</strong></td><td>: Batang</td></tr>
+              <tr><td><strong>Durasi</strong></td><td>: 4 Bulan</td></tr>
+            </table>
+            <p class="text-muted small">Konstruksi apotek dengan penekanan pada tata ruang yang bersih, instalasi rak obat, dan sirkulasi udara yang baik sesuai standar kesehatan.</p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        <a href="https://wa.me/6285647744500" class="btn btn-success">Tanya Proyek Serupa</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalInstansi" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content border-0 shadow-lg">
+      <div class="modal-header bg-success text-white">
+        <h5 class="modal-title fw-bold">Detail Proyek: Renovasi Kantor instansi</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-4">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <img src="img/renov.jpeg" class="img-fluid rounded shadow-sm" alt="Detail Instansi">
+          </div>
+          <div class="col-md-6">
+            <h6 class="fw-bold text-success"><i class="bi bi-info-circle-fill"></i> Informasi Proyek</h6>
+            <hr>
+            <table class="table table-sm table-borderless">
+              <tr><td><strong>Klien</strong></td><td>: Instansi Pemerintah</td></tr>
+              <tr><td><strong>Lokasi</strong></td><td>: Kajen</td></tr>
+              <tr><td><strong>Durasi</strong></td><td>: 5 Bulan</td></tr>
+            </table>
+            <p class="text-muted small">Konstruksi renovasi instansi dengan penekanan pada tata ruang yang bersih, kekokohan bangunan, dan sirkulasi udara yang baik sesuai standar di pemerintahan.</p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        <a href="https://wa.me/6285647744500" class="btn btn-success">Tanya Proyek Serupa</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a href="#top" class="btn btn-primary position-fixed bottom-0 end-0 m-4 back-to-top">
+      <i class="bi bi-arrow-up"></i>
+      </a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
